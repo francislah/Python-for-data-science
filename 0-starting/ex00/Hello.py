@@ -1,8 +1,7 @@
 ft_list = ["Hello", "tata!"]
 ft_tuple = ("Hello", "toto!")
 ft_set = {"Hello", "tutu!"}
-ft_dict = {"Hello" : "titi!"}
-#your code here
+ft_dict = {"Hello": "titi!"}
 
 ft_list[1] = "World!"
 print(ft_list)
@@ -17,5 +16,5 @@ ft_set.discard("tutu!")
 ft_set.add("Quebec")
 print(ft_set)
 
-ft_dict.update({"Hello":"42Quebec"})
+ft_dict.update({"Hello": "42Quebec"})
 print(ft_dict)
