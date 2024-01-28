@@ -1,5 +1,5 @@
 
-def ft_filter(condition: any or None, iterable: any) -> any:
+def ft_filter(condition: any or None, iterable: []) -> []:
     result = []
     try:
         for iter in iterable:
@@ -19,7 +19,7 @@ is true. If function is None, return the items that are true."
 
 def main() -> int:
     array = ["1", "2", "3"]
-    print(f"{ft_filter.__doc__}\n")
+    # print(f"{ft_filter.__doc__}\n")
     # result = ft_filter(lambda x: x == "1", array)
     result = ft_filter(None, array)
     print(result)
